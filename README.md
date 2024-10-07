@@ -53,7 +53,7 @@ The log files will be save in `./log` dictionary. It contains dual-hand action s
 ## Demo
 A demo video to show the adapative robot assistance planning.
 
-<video controls src="assets/demo_480.mp4" title="Title"></video>
+![alt text](assets/domo.gif)
 
 ## Citation
 If you find our code useful, please cite our paper. 

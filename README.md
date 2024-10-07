@@ -51,7 +51,7 @@ To simplify the process, we use one script `main.py` to automatically train and 
 The log files will be save in `./log` dictionary. It contains dual-hand action segmentation accuracy of each epoch. 
 
 ## Demo
-A demo video to show the adapative robot assistance planning.
+A demo video to show the adapative robot assistance planning. Gif is shown below, but you can find the 1080P video in the folder `./assets/demo.mp4`
 
 ![alt text](assets/domo.gif)
 

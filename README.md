@@ -23,7 +23,8 @@ The proposed DuHa-v2 is the core contribution of this work, which provides the f
 *Overview of DuHa-v2 for real-time dual-hand action segmentation.*
 
 ### Data preparation
-The data is hosted in [Dropbox](https://www.dropbox.com/scl/fo/ura9rs952qploe73kyrk3/h?rlkey=9xl2ur3iojl69x1oay9ko2xuo&dl=0). We created the dataset by selecting a sub-dataset from [HA-ViD](https://iai-hrc.github.io/ha-vid). In this repository, we only provide the features and labels that are necessary to replicate DuHa-v2. More information about the dataset **HA-ViD** can be found at the [website](https://iai-hrc.github.io/ha-vid).
+Data is coming.
+<!-- The data is hosted in [Dropbox](https://www.dropbox.com/scl/fo/ura9rs952qploe73kyrk3/h?rlkey=9xl2ur3iojl69x1oay9ko2xuo&dl=0). We created the dataset by selecting a sub-dataset from [HA-ViD](https://iai-hrc.github.io/ha-vid). In this repository, we only provide the features and labels that are necessary to replicate DuHa-v2. More information about the dataset **HA-ViD** can be found at the [website](https://iai-hrc.github.io/ha-vid).
 You should download the data and put it in a folder `./data`. 
 The structure of `data` should look like:
 ```
@@ -38,14 +39,15 @@ data
 ├── test_i3d_features
 ├── test_lh_labels
 ├── test_rh_labels
-```
+``` -->
 ### Environment preparation
 We provide the `environment.yml` file to help you set up the environment easily. Please change the `prefix` to your anaconda location.
 * run `conda env create -f environment.yml`
 
 ### Training and testing DuHa
-To simplify the process, we use one script `main.py` to automatically train and test DuHa. We test DuHa after each epoch. In the HA-ViD, the videos have `front`, `side` and `top` views, are denoted as `M0` `S1` and `S2` respectively. To run the script `main.py`, please specify the `view` and `data_root` where you hold the data.
-* run `python main.py --view M0 --data_root ./data/`
+Code is coming.
+<!-- To simplify the process, we use one script `main.py` to automatically train and test DuHa. We test DuHa after each epoch. In the HA-ViD, the videos have `front`, `side` and `top` views, are denoted as `M0` `S1` and `S2` respectively. To run the script `main.py`, please specify the `view` and `data_root` where you hold the data.
+* run `python main.py --view M0 --data_root ./data/` -->
 
 ### Check logs
 The log files will be save in `./log` dictionary. It contains dual-hand action segmentation accuracy of each epoch. 
